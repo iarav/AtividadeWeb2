@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+ }
+ 
+header{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(214, 209, 209);
+    display: inline-flex;
+}
+
+
+h1 {
+    margin: 0;
+    align-self: center;
+    padding-left: 30px;
+}
+
+header img{
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+}
+
+nav{
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(168, 0, 0);
+    display: inline-flex;
+    position: sticky;
+    align-items: center;
+    top: 0px;
+}
+
+nav a{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.801);
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.atual{
+    color: white;
+    font-weight: 600;
+}
+
+.principal{
+    background-color: rgb(29, 28, 28);
+    min-height: 74vh;
+}
+
+.principal h2{
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+    color: rgba(255, 202, 202, 0.801);
+    text-align: center;
+    font-size: 2em;
+}
+
+#page2 h2{
+    padding: 100px 0px 0px 0px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid-item{
+    padding: 10px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-item p, ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: rgb(235, 235, 235);
+}
+
+.grid-item p{
+    text-align: center;
+}
+
+.grid-item img{
+    height: 16vh;
+    width: 14vw;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    width: fit-content;
+}
+
+ul li{
+    text-align: justify;
+    padding-top: 6px;
+}
+
+#nota{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nota h4, #nota p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(235, 235, 235);
+}
+
+#nota h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(253, 163, 163, 0.801);
+}
+
+.formulas, .siglas{
+    padding: 20px;
+}
+
+#referencias a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: rgb(235, 235, 235);
+}
+
+#referencias{
+    padding-bottom: 160px;
+}
