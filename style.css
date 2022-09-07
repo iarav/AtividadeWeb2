@@ -2,7 +2,7 @@ body{
     margin: 0;
     width: 100%;
     height: 100%;
- }
+}
  
 header{
     width: 100%;
@@ -21,21 +21,22 @@ h1 {
 header img{
     height: 80px;
     width: 80px;
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 nav{
     width: 100%;
-    height: 6vh;
+    min-height: 7vh;
     background-color: rgb(168, 0, 0);
     display: inline-flex;
     position: sticky;
     align-items: center;
     top: 0px;
+    flex-wrap: wrap;
 }
 
 nav a{
-    font-size: 20px;
+    font-size: 1.2em;
     font-family: 'Times New Roman', Times, serif;
     color: rgba(255, 255, 255, 0.801);
     text-decoration: none;
@@ -53,7 +54,8 @@ nav a:hover{
 
 .principal{
     background-color: rgb(29, 28, 28);
-    min-height: 74vh;
+    min-height: 73vh;
+    width: 100%;
 }
 
 .principal h2{
@@ -70,12 +72,12 @@ nav a:hover{
 
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: 1fr 1fr;
 }
 
 .grid-item{
-    padding: 10px 0px 0px 30px;
+    padding: 10px 0px 0px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,11 +91,12 @@ nav a:hover{
 
 .grid-item p{
     text-align: center;
+    margin: 10px 0px;
 }
 
 .grid-item img{
-    height: 16vh;
-    width: 14vw;
+    height: 95px;
+    width: 184px;
 }
 
 .lista{
@@ -144,6 +147,41 @@ ul li{
     color: rgb(235, 235, 235);
 }
 
+.bibli{
+    word-break: break-all;
+}
+
 #referencias{
     padding-bottom: 160px;
+}
+
+#topicos{
+    width: 95vw;
+}
+
+#principal-topicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ol-title{
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(253, 163, 163, 0.801);
+}
+
+.ol-subtitle{
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 205, 205, 0.801);
+}
+
+.ul-text{
+    list-style: disc;
+}
+
+hr{
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
