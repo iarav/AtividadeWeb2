@@ -165,16 +165,17 @@ ul li{
     align-items: center;
 }
 
-.ol-title{
+.h3-title{
     font-size: 1.3em;
     font-family: 'Times New Roman', Times, serif;
     color: rgba(253, 163, 163, 0.801);
 }
 
-.ol-subtitle{
+.h4-title{
     font-size: 1.2em;
     font-family: 'Times New Roman', Times, serif;
     color: rgba(255, 205, 205, 0.801);
+    margin: 0 0 0 10px;
 }
 
 .ul-text{
